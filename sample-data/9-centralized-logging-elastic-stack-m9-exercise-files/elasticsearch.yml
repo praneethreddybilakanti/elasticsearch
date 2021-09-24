@@ -1,0 +1,12 @@
+
+xpack.notification.email.account:
+    globo:
+        email_defaults:
+            from: alerts@globomantics.com
+            cc: administrator@globomantics.com
+        smtp:
+            auth: false
+            host: 192.168.0.17
+
+action.auto_create_index: .security,.monitoring*,.watches,.triggered_watches,.watcher-history*
+xpack.security.enabled: false
